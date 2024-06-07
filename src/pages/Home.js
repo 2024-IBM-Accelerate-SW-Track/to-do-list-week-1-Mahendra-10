@@ -32,7 +32,6 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <p>Replace this</p>
         <Todos todos={this.state.todos} /> {/* Pass the todos state here */}
         <AddTodo addTodo={this.addTodo} /> {/* Pass the addTodo function correctly */}
       </div>
